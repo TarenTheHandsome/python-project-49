@@ -21,6 +21,7 @@ def check_even(num):
 def main():
     answers = []
     name = say_hello()
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     while len(answers) < 3:
         num = randint(1, 20)
         print(f"Question: {num}")
