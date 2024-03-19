@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 from random import randint
+from brain_games.scripts.games.say_hello import say_hello
 
 
-def say_hello():
-    print('Welcome to the Brain Games!')
-    name = input('May I have your name? ')
-    print(f"Hello, {name}!")
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    return name
+# def say_hello():
+#     print('Welcome to the Brain Games!')
+#     name = input('May I have your name? ')
+#     print(f"Hello, {name}!")
+#     print('Answer "yes" if the number is even, otherwise answer "no".')
+#     return name
 
 
 def check_even(num):
@@ -36,3 +37,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
