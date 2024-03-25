@@ -8,10 +8,12 @@ def main():
     answers = []
     name = say_hello()
     print("What is the result of the expression?")
-    while len(answers) < 3:
+    while len(answers) < 3: 
         a = randint(1, 20)
         b = randint(1, 20)
-        operations = {(f"{a} + {b}"):(a + b), (f"{a} - {b}"): (a - b), (f"{a} * {b}"):(a * b)}
+        operations = {(f"{a} + {b}"):(a + b),
+                      (f"{a} - {b}"): (a - b),
+                      (f"{a} * {b}"):(a * b)}
         op = choice(list(operations))
         print(f"Question:{op}")
         answer = int(input('Your answer: '))
@@ -19,12 +21,11 @@ def main():
             answers.append(answer)
             print("Correct!")
         else:
-            print(f"'{answer}' is wrong answer;(Correct answer was '{operations[op]}'.")
+            print(f"'{answer}' is wrong answer;"
+                  f"(Correct answer was '{operations[op]}'.")
             print(f"Let's try again, {name}!")
     return print(f"Congratulations, {name}!")
 
 
 if __name__ == '__main__':
     main()
-
-

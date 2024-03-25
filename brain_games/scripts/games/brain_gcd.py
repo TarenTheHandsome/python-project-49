@@ -17,7 +17,6 @@ def check():
     return a, b, gcd(a, b)
 
 
-
 def main():
     answers = []
     name = say_hello()
