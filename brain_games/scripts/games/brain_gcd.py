@@ -24,8 +24,8 @@ def main():
     while len(answers) < 3:
         a, b, nod = check()
         print(f"Question: {a} {b}")
-        answer = int(input('Your answer: '))
-        if answer == nod:
+        answer = input('Your answer: ')
+        if answer == str(nod):
             answers.append(answer)
             print("Correct!")
         else:

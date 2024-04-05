@@ -25,8 +25,9 @@ def main():
         progression[id] = '..'
         string = (' '.join(map(str, progression)))
         print(f"Question:{string}")
-        answer = int(input('Your answer: '))
-        if answer == num:
+        answer = input('Your answer: ')
+
+        if answer == str(num):
             answers.append(answer)
             print("Correct!")
         else:

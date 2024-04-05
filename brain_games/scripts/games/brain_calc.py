@@ -8,7 +8,7 @@ def main():
     answers = []
     name = say_hello()
     print("What is the result of the expression?")
-    while len(answers) < 3: 
+    while len(answers) < 3:
         a = randint(1, 20)
         b = randint(1, 20)
         operations = {(f"{a} + {b}"):(a + b),
