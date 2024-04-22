@@ -2,7 +2,7 @@
 def say_hello():
     print('Welcome to the Brain Games!')
     name = input('May I have your name?')
-    print(f"Hello,{name}!")
+    print(f"Hello, {name}!")
     return name
 
 
@@ -51,3 +51,4 @@ def main(func, flag):
     if len(answers) == 3:
         say_congratulations(name)
     return None
+

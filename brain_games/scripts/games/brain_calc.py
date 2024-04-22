@@ -16,8 +16,5 @@ def find_correct_answer():
     return op, str(correct_answer)
 
 
-main(find_correct_answer, 'calc')
-
-
 if __name__ == '__main__':
     main(find_correct_answer, 'calc')

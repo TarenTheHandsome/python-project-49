@@ -15,8 +15,5 @@ def find_correct_answer():
     return str(new_int), correct_answer
 
 
-main(find_correct_answer, 'prime')
-
-
 if __name__ == '__main__':
-    main()
+    main(find_correct_answer, 'prime')

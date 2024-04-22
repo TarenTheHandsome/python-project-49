@@ -18,8 +18,5 @@ def find_correct_answer():
     return progression_string, str(num)
 
 
-main(find_correct_answer, 'progression')
-
-
 if __name__ == '__main__':
-    main()
+    main(find_correct_answer, 'progression')

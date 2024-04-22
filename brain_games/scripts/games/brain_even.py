@@ -12,8 +12,5 @@ def find_correct_answer():
     return str(num), correct_answer
 
 
-main(find_correct_answer, 'even')
-
-
 if __name__ == '__main__':
-    main()
+    main(find_correct_answer, 'even')

@@ -17,8 +17,5 @@ def find_correct_answer():
     return str(f'{a}  {b}'), str(gcd(a, b))
 
 
-main(find_correct_answer, 'gcd')
-
-
 if __name__ == '__main__':
-    main()
+    main(find_correct_answer, 'gcd')
