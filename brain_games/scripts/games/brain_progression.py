@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 from random import randint
-from brain_games.scripts.games.main_file import main
+from brain_games.scripts.games.main_file import core_main
 from random import choice
+
+def main():
+    core_main(find_correct_answer, 'progression')
 
 
 def find_correct_answer():
@@ -19,4 +22,4 @@ def find_correct_answer():
 
 
 if __name__ == '__main__':
-    main(find_correct_answer, 'progression')
+    main()

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 def say_hello():
     print('Welcome to the Brain Games!')
-    name = input('May I have your name?')
+    name = input('May I have your name? ')
     print(f"Hello, {name}!")
     return name
 
@@ -37,7 +37,7 @@ def say_congratulations(name):
     print(f"Congratulations, {name}!")
 
 
-def main(func, flag):
+def core_main(func, flag):
     name = say_hello()
     answers = []
     while len(answers) < 3:

@@ -8,6 +8,14 @@ repository = "https://github.com/TarenTheHandsome/python-project-49"
 packages = [
   { include = "brain_games" },
 ]
+classifiers = [
+    "Environment :: MacOS Monterey",
+    "Environment :: Console",
+    "Development Status :: 3 - Alpha",
+    "Framework :: Flake8",
+    "License :: Free for non-commercial use",
+    "Natural Language :: Russian",
+  ]
 
 
 [tool.poetry.scripts]
@@ -19,18 +27,9 @@ brain-progression = "brain_games.scripts.games.brain_progression:main"
 brain-prime = "brain_games.scripts.games.brain_prime:main"
 
 
-
 [tool.poetry.dependencies]
 python = "^3.11"
 prompt = "^0.4.1"
-classifiers = [
-    "Environment :: MacOS Monterey",
-    "Environment :: Console",
-    "Development Status :: 3 - Alpha",
-    "Framework :: Flake8",
-    "License :: Free for non-commercial use",
-    "Natural Language :: Russian",
-  ]
 
 
 [tool.poetry.group.dev.dependencies]

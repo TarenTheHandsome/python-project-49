@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
-from brain_games.scripts.games.main_file import main
+from brain_games.scripts.games.main_file import core_main
 from random import randint
 from math import gcd
+
+
+def main():
+    core_main(find_correct_answer, 'gcd')
 
 
 def create_nums():
@@ -18,4 +22,4 @@ def find_correct_answer():
 
 
 if __name__ == '__main__':
-    main(find_correct_answer, 'gcd')
+    main()

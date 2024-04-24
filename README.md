@@ -5,8 +5,12 @@
 ### Description:
 Package with five games to exercise your brain.
 ### Examples of working with the package:
- https://asciinema.org/a/6JXAiQysBHUpmi6Cx9DVoWpCX
- https://asciinema.org/a/QUmZWK2nULISGgJ5Ex8fWdH7w
-https://asciinema.org/a/5zREcEsxc5PaBTMEQxJ34kd59
-https://asciinema.org/a/1jbypLqCecACQV5j4RPHMY5C4
-https://asciinema.org/a/tUoBwEBQKFR779g70rD4Rc6d8
+Brain-even: https://asciinema.org/a/XFAacLWrcHKLTOlBCkwTSe5C9
+
+Brain-calc: https://asciinema.org/a/5NveZT6adDaU4iCREWWWHtTx2
+
+Brain-gcd: https://asciinema.org/a/hyXt3IMVe1i9bb1ZG2wul2Ht4
+
+Brain-progression: https://asciinema.org/a/J1NmGG3VcsvCc8YTt2m7A1IAc
+
+Brain-prime: https://asciinema.org/a/tVhPRq0bAHtNqACK7Tab7XhGz
