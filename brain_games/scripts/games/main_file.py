@@ -52,4 +52,3 @@ def core_main(func, flag):
     if counter == 3:
         say_congratulations(name)
     return None
-

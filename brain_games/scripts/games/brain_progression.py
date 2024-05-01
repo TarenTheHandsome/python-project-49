@@ -3,6 +3,7 @@ from random import randint
 from brain_games.scripts.games.main_file import core_main
 from random import choice
 
+
 def main():
     core_main(find_correct_answer, 'progression')
 
