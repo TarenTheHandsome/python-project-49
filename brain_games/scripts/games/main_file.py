@@ -39,13 +39,17 @@ def say_congratulations(name):
 
 def core_main(func, flag):
     name = say_hello()
+    counter = 0
     for i in range(3):
         question, correct_answer = func()
         answer = ask_answer(question, flag)
         if answer == correct_answer:
             say_correct()
+            counter += 1
         else:
             wrong_answer(answer, correct_answer, name)
-    say_congratulations(name)
+            break
+    if counter == 3:
+        say_congratulations(name)
     return None
 
