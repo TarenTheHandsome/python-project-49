@@ -18,7 +18,7 @@ def find_correct_answer():
     a, b = create_nums()
     while gcd(a, b) == 1:
         a, b = create_nums()
-    return str(f'{a}  {b}'), str(gcd(a, b))
+    return str(f'{a} {b}'), str(gcd(a, b))
 
 
 if __name__ == '__main__':
