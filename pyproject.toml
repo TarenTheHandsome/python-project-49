@@ -19,13 +19,17 @@ classifiers = [
 
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
-brain-even = "brain_games.scripts.games.brain_even:main"
-brain-calc = "brain_games.scripts.games.brain_calc:main"
-brain-gcd = "brain_games.scripts.games.brain_gcd:main"
-brain-progression = "brain_games.scripts.games.brain_progression:main"
-brain-prime = "brain_games.scripts.games.brain_prime:main"
-
+brain-games = "brain_games.scripts.brain_game:main"
+#brain-even = "brain_games.scripts.games.brain_even:main"
+brain-even = "brain_games.scripts.even_script:main"
+#brain-calc = "brain_games.scripts.games.brain_calc:main"
+brain-calc = "brain_games.scripts.calc_script:main"
+#brain-gcd = "brain_games.scripts.games.brain_gcd:main"
+brain-gcd = "brain_games.scripts.gcd_script:main"
+#brain-progression = "brain_games.scripts.games.brain_progression:main"
+brain-progression = "brain_games.scripts.progression_script:main"
+#brain-prime = "brain_games.scripts.games.brain_prime:main"
+brain-prime = "brain_games.scripts.prime_script:main"
 
 [tool.poetry.dependencies]
 python = "^3.11"

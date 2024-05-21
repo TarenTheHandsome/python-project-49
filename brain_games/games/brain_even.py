@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-from brain_games.scripts.games.main_file import core_main
+from brain_games.main_file import core_main
 from random import randint
 
 
-def main():
-    core_main(find_correct_answer, 'even')
+# def main():
+#     core_main(find_correct_answer, 'even')
 
 
 def find_correct_answer():
@@ -16,5 +16,5 @@ def find_correct_answer():
     return str(num), correct_answer
 
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()

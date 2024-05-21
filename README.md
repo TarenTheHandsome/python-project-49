@@ -5,6 +5,7 @@
 ### Description:
 Package with five games to exercise your brain.
 ### Examples of working with the package:
+
 Brain-even: https://asciinema.org/a/CrbXwrItnhwhLcsLlsp7x9MU1
 
 Brain-calc: https://asciinema.org/a/IGdbXyl8sN3PprxECPOmKyB65
