@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 from random import randint
-from brain_games.main_file import core_main
-
-
-# def main():
-#     core_main(find_correct_answer, 'prime')
 
 
 def find_correct_answer():
@@ -17,7 +12,3 @@ def find_correct_answer():
     else:
         correct_answer = 'no'
     return str(new_int), correct_answer
-
-
-# if __name__ == '__main__':
-#     main()
