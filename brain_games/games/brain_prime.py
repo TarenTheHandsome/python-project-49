@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 from random import randint
 
+description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def find_correct_answer():
     prime_ints = [1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41,

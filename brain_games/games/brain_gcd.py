@@ -2,6 +2,8 @@
 from random import randint
 from math import gcd
 
+description = 'Find the greatest common divisor of given numbers.'
+
 
 def create_nums():
     a = randint(1, 200)

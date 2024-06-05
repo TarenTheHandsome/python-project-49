@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 from random import randint
 
+description = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def find_correct_answer():
     num = randint(1, 20)

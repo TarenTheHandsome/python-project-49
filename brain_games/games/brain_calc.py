@@ -2,6 +2,8 @@
 from random import randint
 from random import choice
 
+description = 'What is the result of the expression?'
+
 
 def find_correct_answer():
     a = randint(1, 20)

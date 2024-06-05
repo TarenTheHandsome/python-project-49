@@ -2,6 +2,8 @@
 from random import randint
 from random import choice
 
+description = 'What number is missing in the progression?'
+
 
 def find_correct_answer():
     length = randint(5, 10)
