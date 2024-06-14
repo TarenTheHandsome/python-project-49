@@ -1,17 +1,14 @@
-#!/usr/bin/env python3
 from random import randint
 from random import choice
+import operator
 
-description = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 
 
-def find_correct_answer():
+def get_question_and_answer():
     a = randint(1, 20)
     b = randint(1, 20)
-    operations = {
-        (f"{a} + {b}"): (a + b),
-        (f"{a} - {b}"): (a - b),
-        (f"{a} * {b}"): (a * b)}
-    op = choice(list(operations))
-    correct_answer = operations[op]
-    return op, str(correct_answer)
+    operations = [('-', operator.sub(a, b)),
+                  ('+', operator.add(a, b)), ('*', operator.mul(a, b))]
+    op, correct_answer = choice(operations)
+    return f'{a} {op} {b}', str(correct_answer)

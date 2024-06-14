@@ -1,11 +1,10 @@
-#!/usr/bin/env python3
 from random import randint
 from random import choice
 
-description = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 
 
-def find_correct_answer():
+def get_question_and_answer():
     length = randint(5, 10)
     a1 = randint(1, 20)
     d = randint(2, 10)

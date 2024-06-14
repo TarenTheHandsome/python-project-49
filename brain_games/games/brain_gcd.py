@@ -1,8 +1,7 @@
-#!/usr/bin/env python3
 from random import randint
 from math import gcd
 
-description = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
 def create_nums():
@@ -11,7 +10,7 @@ def create_nums():
     return a, b
 
 
-def find_correct_answer():
+def get_question_and_answer():
     a, b = create_nums()
     while gcd(a, b) == 1:
         a, b = create_nums()
