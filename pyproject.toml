@@ -20,11 +20,11 @@ classifiers = [
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_game:main"
-brain-even = "brain_games.scripts.even_script:main"
-brain-calc = "brain_games.scripts.calc_script:main"
-brain-gcd = "brain_games.scripts.gcd_script:main"
-brain-progression = "brain_games.scripts.progression_script:main"
-brain-prime = "brain_games.scripts.prime_script:main"
+brain-even = "brain_games.scripts.even_launch:main"
+brain-calc = "brain_games.scripts.calc_launch:main"
+brain-gcd = "brain_games.scripts.gcd_launch:main"
+brain-progression = "brain_games.scripts.progression_launch:main"
+brain-prime = "brain_games.scripts.prime_launch:main"
 
 
 [tool.poetry.dependencies]
