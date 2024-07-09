@@ -5,12 +5,10 @@ DESCRIPTION = 'What number is missing in the progression?'
 
 
 def get_question_and_answer():
-    length = randint(5, 10)
-    a1 = randint(1, 20)
-    d = randint(2, 10)
-    progression = []
-    for i in range(length):
-        progression.append(a1 + i * d)
+    start = randint(1, 20)
+    step = randint(2, 8)
+    stop = start + step * randint(5, 10)
+    progression = list(range(start, stop, step))
     num = choice(progression)
     my_id = progression.index(num)
     progression[my_id] = '..'

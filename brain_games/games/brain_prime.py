@@ -1,15 +1,27 @@
 from random import randint
+import math
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def get_question_and_answer():
-    prime_ints = [1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41,
-                  43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97,
-                  101, 103, 107, 109, 113, 127, 131, 137, 139, 149]
-    new_int = randint(1, 150)
-    if new_int in prime_ints:
-        correct_answer = 'yes'
+    number = randint(1, 150)
+    is_prime = check_is_prime(number)
+
+    correct_answer = 'yes' if is_prime else 'no'
+    return str(number), correct_answer
+
+
+def check_is_prime(number: int) -> bool:
+    if number == 1:
+        return False
+    elif number == 2:
+        return True
+    elif not number % 2:
+        return False
+
+    for i in range(3, int(math.sqrt(number)) + 1, 2):
+        if not number % i:
+            return False
     else:
-        correct_answer = 'no'
-    return str(new_int), correct_answer
+        return True
