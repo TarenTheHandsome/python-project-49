@@ -6,13 +6,13 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def get_question_and_answer():
     number = randint(1, 150)
-    is_prime = check_is_prime(number)
+    prime = is_prime(number)
 
-    correct_answer = 'yes' if is_prime else 'no'
+    correct_answer = 'yes' if prime else 'no'
     return str(number), correct_answer
 
 
-def check_is_prime(number: int) -> bool:
+def is_prime(number: int) -> bool:
     if number == 1:
         return False
     elif number == 2:
