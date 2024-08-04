@@ -5,13 +5,17 @@
 ### Description:
 Package with five games to exercise your brain.
 ### Examples of working with the package:
+Brain-calc:
+[![asciicast](https://asciinema.org/a/ZyfUHaoFzkgfpOnLN4smrjl10.svg)](https://asciinema.org/a/ZyfUHaoFzkgfpOnLN4smrjl10)
 
-Brain-even: https://asciinema.org/a/CrbXwrItnhwhLcsLlsp7x9MU1
+Brain-even: 
+[![asciicast](https://asciinema.org/a/nFbW5UGzCpcq1x34ThLldvOg2.svg)](https://asciinema.org/a/nFbW5UGzCpcq1x34ThLldvOg2)
 
-Brain-calc: https://asciinema.org/a/IGdbXyl8sN3PprxECPOmKyB65
+Brain-progression:
+[![asciicast](https://asciinema.org/a/CHjZUwch32BjKVzPXFjkBl2tF.svg)](https://asciinema.org/a/CHjZUwch32BjKVzPXFjkBl2tF)
 
-Brain-gcd: https://asciinema.org/a/342VR1NV3KH4Zd3ewnp970dXd
+Brain-prime: 
+[![asciicast](https://asciinema.org/a/MJn4pwRc1EwWHbcrmw1SGoIYy.svg)](https://asciinema.org/a/MJn4pwRc1EwWHbcrmw1SGoIYy)
 
-Brain-progression: https://asciinema.org/a/KMx8msJVIVi56NOryeQII7bU2
-
-Brain-prime: https://asciinema.org/a/ct7TzGyjc6lJxcC3vItYmBGqm
+Brain-gcd: 
+[![asciicast](https://asciinema.org/a/mpBywy8AZMh3sd5WnxBXmwJIT.svg)](https://asciinema.org/a/mpBywy8AZMh3sd5WnxBXmwJIT)
